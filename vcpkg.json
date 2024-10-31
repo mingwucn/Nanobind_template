@@ -1,0 +1,8 @@
+{
+  "dependencies": [
+    "gtest",
+    "fmt",
+    "eigen3",
+    "nanobind"
+  ]
+}
