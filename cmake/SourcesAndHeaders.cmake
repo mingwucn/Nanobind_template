@@ -1,8 +1,5 @@
-
-
 set(sources
-    src/tmp.cpp
-    src/map_utils.cpp
+    src/cal/add.cpp
 )
 
 set(exe_sources
@@ -11,10 +8,13 @@ set(exe_sources
 )
 
 set(headers
-    include/project/tmp.hpp
-    include/map_utils.hpp
+    # include/add.hpp
 )
 
 set(test_sources
     src/tmp_test.cpp
+)
+
+set(bind_sources
+    src/bind.cpp
 )
