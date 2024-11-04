@@ -6,8 +6,8 @@
 	symlinks = false
 	ignorecase = true
 [remote "origin"]
-	url = 
-	url = 
+	url = git@github.com:mingwucn/Nanobind_template.git
+	url = git@gitlab.com:mingwucn/nanobind_template.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
 [branch "main"]
 	remote = origin

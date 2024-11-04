@@ -4,7 +4,7 @@ tags:
 type: git repository
 ---
 
-# SBO_AutoCAM NX hello world
+# Nanobind template
 
 ## Authors
 

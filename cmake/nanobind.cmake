@@ -13,4 +13,4 @@ find_package(nanobind REQUIRED)
 # add_subdirectory(${PROJECT_SOURCE_DIR}/ext/nanobind)
 # include_directories(${PROJECT_SOURCE_DIR}/ext/nanobind/include)
 
-nanobind_add_module(cpp_utils ${bind_sources})
+nanobind_add_module(cpp_utils ${bind_sources} ${headers})

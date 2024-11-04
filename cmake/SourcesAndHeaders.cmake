@@ -1,5 +1,5 @@
 set(sources
-    src/cal/add.cpp
+    src/cal/cal.cpp
 )
 
 set(exe_sources
@@ -8,7 +8,7 @@ set(exe_sources
 )
 
 set(headers
-    # include/add.hpp
+    include/cal/cal.hpp
 )
 
 set(test_sources
@@ -17,4 +17,5 @@ set(test_sources
 
 set(bind_sources
     src/bind.cpp
+    src/cal/cal.cpp
 )
