@@ -5,6 +5,9 @@ type: git repository
 ---
 
 # Nanobind template
+Files need to be modified:
+- cmake/SourcesAndHeaders.cmake
+- cmake/nanobind.cmake
 
 ## Authors
 
