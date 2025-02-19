@@ -13,4 +13,11 @@ find_package(nanobind REQUIRED)
 # add_subdirectory(${PROJECT_SOURCE_DIR}/ext/nanobind)
 # include_directories(${PROJECT_SOURCE_DIR}/ext/nanobind/include)
 
-nanobind_add_module(cpp_utils ${bind_sources} ${headers})
+nanobind_add_module(cpp_utils ${bind_sources} ${headers} ${source})
+
+target_link_libraries(
+    cpp_utils 
+    PRIVATE
+#     # fmt::fmt-header-only
+    Eigen3::Eigen
+)
