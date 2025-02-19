@@ -8,7 +8,7 @@ type: git repository
 
 ## Authors
 
-* **Filip-Ioan Dutescu** - [@filipdutescu](https://github.com/filipdutescu)
+
 
 ## License
 
